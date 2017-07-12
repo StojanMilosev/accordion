@@ -1,0 +1,29 @@
+*,body{
+    margin: 0;
+    padding: 0;
+    font-family: Cantarell,sans-serif;
+}
+.container{
+    width: 900px;
+    padding: 50px;
+    margin: auto;
+}
+button.accordion{
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+}
+button.accordion.active,
+button.accordion:hover{
+    background-color: #ddd;
+}
+div.panel{
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
